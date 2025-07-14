@@ -1,9 +1,0 @@
-digraph G {
-	cli -> color.go
-	dir -> dir.go
-	dir -> walker.go
-	dir -> go.mod
-	dir -> input.go
-	dir -> main.go
-	file -> graph-2025-07-1322:03:44.dot
-}
