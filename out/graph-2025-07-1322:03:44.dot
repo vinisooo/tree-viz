@@ -1,0 +1,8 @@
+digraph G {
+	cli -> color.go
+	dir -> dir.go
+	dir -> walker.go
+	dir -> go.mod
+	dir -> input.go
+	dir -> main.go
+}

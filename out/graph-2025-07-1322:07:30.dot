@@ -1,0 +1,12 @@
+digraph G {
+	"cli" -> "color.go" 
+	"dir" -> "dir.go" 
+	"dir" -> "walker.go" 
+	"dir" -> "go.mod" 
+	"dir" -> "input.go" 
+	"dir" -> "main.go" 
+	"file" -> "graph-2025-07-1322:03:44.dot" 
+	"file" -> "graph-2025-07-1322:03:51.dot" 
+	"file" -> "graph-2025-07-1322:04:54.dot" 
+	"file" -> "graph-2025-07-1322:05:17.dot" 
+}
