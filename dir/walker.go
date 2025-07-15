@@ -30,6 +30,7 @@ func WalkPath(path string, outputPath string) {
 
 		if d.IsDir() {
 			fmt.Printf("├%s📂 %s\n", spaces, name)
+			outputContent += fmt.Sprintf("\t\"%s\" -> \"%s\" \n", currentDir, name)
 			currentDir = name
 		} else {
 			fmt.Printf("├%s📄 %s\n", spaces, name)
